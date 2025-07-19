@@ -92,51 +92,28 @@ No open Airbnb dataset for Pakistan exists.
 **Solution:**  
 Simulated realistic Airbnb-style data across 10 major cities, ensuring logical distribution of prices, reviews, bookings, and host behaviors. Maintained referential integrity across all tables.
 
----
 
-### 2. 🏙️ City-Based Price Comparison  
-**Challenge:**  
-Needed to compare individual listing prices against their respective city’s average.
 
-**Solution:**  
-Used **Common Table Expressions (CTEs)** to calculate average prices per city, then joined it back to the listings table for comparison.
 
----
 
-### 3. ⭐ Top Listings by Reviews in Each City  
-**Challenge:**  
-Required identifying the most-reviewed listing in every city.
 
-**Solution:**  
-Applied the **`RANK()` window function**, partitioned by city and ordered by review count, to find top listings based on guest engagement.
 
----
 
-### 4. 🧑‍💼 Host Performance Analysis  
-**Challenge:**  
-Needed to aggregate booking and revenue metrics across normalized host, listing, and booking tables.
 
-**Solution:**  
-Wrote optimized **JOIN** and **GROUP BY** queries to extract host-specific KPIs, such as total revenue and bookings.
 
----
 
-### 5. ⚙️ Query Optimization  
-**Challenge:**  
-Nested CTEs and subqueries were causing performance slowdowns.
 
-**Solution:**  
-- Indexed key columns such as `city`, foreign keys, and listing IDs  
-- Introduced temporary views and eliminated redundant nested logic  
-- Simplified queries for faster execution time
 
----
 
-## 🚀 Next Steps (Optional Enhancements)
 
-- 🔗 **Power BI Dashboard Integration** for interactive, real-time visuals  
-- 📈 **Predictive Modeling** using Python or R to forecast demand, reviews, or pricing  
-- 🎥 **Loom Video Walkthrough** to demonstrate project background, queries, and findings live
+
+
+
+
+
+
+
+
 
 ---
 
