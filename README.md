@@ -92,31 +92,6 @@ No open Airbnb dataset for Pakistan exists.
 **Solution:**  
 Simulated realistic Airbnb-style data across 10 major cities, ensuring logical distribution of prices, reviews, bookings, and host behaviors. Maintained referential integrity across all tables.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
 ## 👤 Project Author
 
 **Khurram Naveed**  
