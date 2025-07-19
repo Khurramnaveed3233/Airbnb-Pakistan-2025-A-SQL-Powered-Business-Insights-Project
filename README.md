@@ -2,8 +2,6 @@
 
 ![a-sleek-and-professional-powerpoint-cove_4XiNHfZzRx-gZncM_AONaA_W9smB6i0Rz6YqcqSP04P7g](https://github.com/user-attachments/assets/1c8c2872-8bf2-4166-92a8-f0586f47eb87)
 
-# 🏡 Airbnb Pakistan 2025 — A SQL-Powered Business Insights Project
-
 ## 📌 About the Project
 
 Pakistan’s short-term rental market, especially through platforms like Airbnb, is growing rapidly. However, it remains **largely untapped in terms of data-driven decision-making**. With no public Airbnb data available for Pakistan, this project simulates a realistic dataset and applies **advanced SQL techniques** to drive insights in the areas of pricing, host performance, customer satisfaction, and city-level demand.
