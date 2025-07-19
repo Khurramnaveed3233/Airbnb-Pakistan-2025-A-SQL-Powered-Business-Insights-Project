@@ -80,6 +80,7 @@ This project drives actionable insights for multiple business areas:
 
 <img width="1072" height="607" alt="14" src="https://github.com/user-attachments/assets/5a1da662-bba4-4f96-a218-c81bf81e972e" />
 
+<img width="1074" height="602" alt="15" src="https://github.com/user-attachments/assets/b204a957-d1af-4ebb-8379-9f2236e65518" />
 
 
 ## 🧩 Challenges Faced & How They Were Solved
