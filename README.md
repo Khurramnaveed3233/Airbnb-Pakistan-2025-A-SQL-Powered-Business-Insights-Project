@@ -85,7 +85,7 @@ This project drives actionable insights for multiple business areas:
 
 ## 🧩 Challenges Faced & How They Were Solved
 
-### 1. 📦 No Official Airbnb Dataset  
+### 1.  No Official Airbnb Dataset  
 **Challenge:**  
 No open Airbnb dataset for Pakistan exists.
 
@@ -93,7 +93,7 @@ No open Airbnb dataset for Pakistan exists.
 Simulated realistic Airbnb-style data across 10 major cities, ensuring logical distribution of prices, reviews, bookings, and host behaviors. Maintained referential integrity across all tables.
 
 
-### 2. 🏙️ City-Based Price Comparison  
+### 2. City-Based Price Comparison  
 **Challenge:**  
 Needed to compare individual listing prices against their respective city’s average.
 
@@ -101,7 +101,7 @@ Needed to compare individual listing prices against their respective city’s av
 Used **Common Table Expressions (CTEs)** to calculate average prices per city, then joined it back to the listings table for comparison.
 
 
-### 3. ⭐ Top Listings by Reviews in Each City  
+### 3. Top Listings by Reviews in Each City  
 **Challenge:**  
 Required identifying the most-reviewed listing in every city.
 
@@ -109,7 +109,7 @@ Required identifying the most-reviewed listing in every city.
 Applied the **`RANK()` window function**, partitioned by city and ordered by review count, to find top listings based on guest engagement.
 
 
-### 4. 🧑‍💼 Host Performance Analysis  
+### 4. Host Performance Analysis  
 **Challenge:**  
 Needed to aggregate booking and revenue metrics across normalized host, listing, and booking tables.
 
@@ -117,7 +117,7 @@ Needed to aggregate booking and revenue metrics across normalized host, listing,
 Wrote optimized **JOIN** and **GROUP BY** queries to extract host-specific KPIs, such as total revenue and bookings.
 
 
-### 5. ⚙️ Query Optimization  
+### 5.  Query Optimization  
 **Challenge:**  
 Nested CTEs and subqueries were causing performance slowdowns.
 
@@ -126,9 +126,9 @@ Nested CTEs and subqueries were causing performance slowdowns.
 - Introduced temporary views and eliminated redundant nested logic  
 - Simplified queries for faster execution time
 
-## 📊 Key Insights & Recommendations
+## Key Insights & Recommendations
 
-### 🔍 Insights
+### Insights
 
 - **Top Performer Identified:**  
   `Stay_4` in Karachi generated the **highest revenue (PKR 147,310)** — likely due to premium amenities and pricing. It's a benchmark for scaling across similar cities.
@@ -148,7 +148,7 @@ Nested CTEs and subqueries were causing performance slowdowns.
 
 ---
 
-### ✅ Recommendations
+### Recommendations
 
 1. **Replicate Top-Performer Features:**  
    Analyze `Stay_4` and apply similar pricing, amenities, or promotions to other urban markets.
@@ -169,20 +169,20 @@ Nested CTEs and subqueries were causing performance slowdowns.
 
 ## 🚀 Next Steps (Optional Enhancements)
 
-- 🔗 **Power BI Dashboard Integration** for interactive, real-time visuals  
-- 📈 **Predictive Modeling** using Python or R to forecast demand, reviews, or pricing  
-- 🎥 **Loom Video Walkthrough** to demonstrate project background, queries, and findings live
+-  **Power BI Dashboard Integration** for interactive, real-time visuals  
+-  **Predictive Modeling** using Python or R to forecast demand, reviews, or pricing  
+-  **Loom Video Walkthrough** to demonstrate project background, queries, and findings live
 
 
 ## 👤 Project Author
 
 **Khurram Naveed**  
-- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-- 🌐 [GitHub Portfolio](https://github.com/Khurramnaveed3233/Portfolio)
+- [LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
+- [GitHub Portfolio](https://github.com/Khurramnaveed3233/Portfolio)
 
 ---
 
-## 🙏 Thank You
+##  Thank You
 
 This project reflects how **advanced SQL alone can power real-world business intelligence**—without the need for complex visualization tools. These insights can help Airbnb-like platforms **optimize pricing, identify high-value hosts, and expand strategically** into the Pakistani market.
 
