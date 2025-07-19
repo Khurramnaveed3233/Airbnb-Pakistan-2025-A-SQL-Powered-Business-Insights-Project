@@ -132,8 +132,6 @@ Nested CTEs and subqueries were causing performance slowdowns.
 - 🎥 **Loom Video Walkthrough** to demonstrate project background, queries, and findings live
 
 
-## 👤 Project Author
-
 **Khurram Naveed**  
 
 ## 👤 Project Author
