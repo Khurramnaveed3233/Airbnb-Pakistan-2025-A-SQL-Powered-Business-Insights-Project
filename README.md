@@ -70,27 +70,13 @@ This project drives actionable insights for multiple business areas:
 - **Window Functions (`RANK()`)** for identifying top performers by reviews
 - **Joins & Aggregations** for calculating revenue, bookings, and host performance
 - **Data Normalization**: Maintained referential integrity across listings, hosts, bookings, and reviews
+- 
 
 ### 🔑 Sample SQL Query – Listings Above City Average
-```sql
-WITH CityAvg AS (
-  SELECT city, AVG(price_per_night) AS avg_price
-  FROM listings
-  GROUP BY city
-)
-SELECT l.listing_id, l.city, l.price_per_night, c.avg_price
-FROM listings l
-JOIN CityAvg c ON l.city = c.city
-WHERE l.price_per_night > c.avg_price;
 
-## 🧩 Challenges Faced & How They Were Solved
 
-### 1. 📦 No Official Airbnb Dataset  
-**Challenge:**  
-No open Airbnb dataset for Pakistan exists.
 
-**Solution:**  
-Simulated realistic Airbnb-style data across 10 major cities, ensuring logical distribution of prices, reviews, bookings, and host behaviors. Maintained referential integrity across all tables.
+
 
 ## 👤 Project Author
 
