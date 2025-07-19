@@ -72,11 +72,24 @@ This project drives actionable insights for multiple business areas:
 - **Data Normalization**: Maintained referential integrity across listings, hosts, bookings, and reviews
 - 
 
-### 🔑 Sample SQL Query – Listings Above City Average
+### 🔑 Sample SQL Query Snapshots
+
+<img width="1069" height="607" alt="12" src="https://github.com/user-attachments/assets/40cfc571-0622-44a2-9626-1af0e0b71c9c" />
+
+<img width="1069" height="605" alt="13" src="https://github.com/user-attachments/assets/0cca7397-f83f-4285-bf3a-253c917bf53f" />
+
+<img width="1072" height="607" alt="14" src="https://github.com/user-attachments/assets/5a1da662-bba4-4f96-a218-c81bf81e972e" />
 
 
 
+## 🧩 Challenges Faced & How They Were Solved
 
+### 1. 📦 No Official Airbnb Dataset  
+**Challenge:**  
+No open Airbnb dataset for Pakistan exists.
+
+**Solution:**  
+Simulated realistic Airbnb-style data across 10 major cities, ensuring logical distribution of prices, reviews, bookings, and host behaviors. Maintained referential integrity across all tables.
 
 ## 👤 Project Author
 
