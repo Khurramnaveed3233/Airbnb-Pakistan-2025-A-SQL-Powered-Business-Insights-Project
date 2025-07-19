@@ -125,14 +125,53 @@ Nested CTEs and subqueries were causing performance slowdowns.
 - Introduced temporary views and eliminated redundant nested logic  
 - Simplified queries for faster execution time
 
+## 📊 Key Insights & Recommendations
+
+### 🔍 Insights
+
+- **Top Performer Identified:**  
+  `Stay_4` in Karachi generated the **highest revenue (PKR 147,310)** — likely due to premium amenities and pricing. It's a benchmark for scaling across similar cities.
+
+- **Concentration Risk:**  
+  The **top 3 listings contribute 63% of total revenue**, indicating potential over-reliance and market vulnerability if they underperform.
+
+- **Host Opportunity:**  
+  Superhost `Ali` generated **PKR 34,540**, making him a strong candidate for incentive, loyalty, or ambassador programs.
+
+- **Underperformers Identified:**  
+  Listings like `Stay_2`, `Stay_7`, and `Stay_10` consistently underperform in both reviews and revenue — candidates for audit or improvement.
+
+- **City Ratings Spotlight:**  
+  Islamabad received a **perfect 5/5 rating** but from a single review — needing more data to confirm reliability.  
+  **Murree**, despite most reviews (6), had only a 3/5 average — suggesting room for quality improvement.
+
+---
+
+### ✅ Recommendations
+
+1. **Replicate Top-Performer Features:**  
+   Analyze `Stay_4` and apply similar pricing, amenities, or promotions to other urban markets.
+
+2. **Expand in Murree:**  
+   Two listings (`Stay_5` & `Stay_9`) are priced above average and show solid returns. There’s strong market demand for premium experiences in hill stations.
+
+3. **Audit Underperformers:**  
+   Conduct pricing and experience audits on low-revenue listings — especially in Skardu and Gilgit, where review scores and bookings are low.
+
+4. **Host Training Program:**  
+   Based on low review scores in cities like Skardu, Airbnb or operators should consider launching host training modules.
+
+5. **Leverage Lahore’s High Satisfaction:**  
+   Promote Lahore’s high guest satisfaction (avg. 4.2/5) in marketing campaigns and platform highlights.
+
+
+
 ## 🚀 Next Steps (Optional Enhancements)
 
 - 🔗 **Power BI Dashboard Integration** for interactive, real-time visuals  
 - 📈 **Predictive Modeling** using Python or R to forecast demand, reviews, or pricing  
 - 🎥 **Loom Video Walkthrough** to demonstrate project background, queries, and findings live
 
-
-**Khurram Naveed**  
 
 ## 👤 Project Author
 
