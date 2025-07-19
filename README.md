@@ -2,7 +2,7 @@
 
 ![a-sleek-and-professional-powerpoint-cove_4XiNHfZzRx-gZncM_AONaA_W9smB6i0Rz6YqcqSP04P7g](https://github.com/user-attachments/assets/1c8c2872-8bf2-4166-92a8-f0586f47eb87)
 
-## 📌 About the Project
+## About the Project
 
 Pakistan’s short-term rental market, especially through platforms like Airbnb, is growing rapidly. However, it remains **largely untapped in terms of data-driven decision-making**. With no public Airbnb data available for Pakistan, this project simulates a realistic dataset and applies **advanced SQL techniques** to drive insights in the areas of pricing, host performance, customer satisfaction, and city-level demand.
 
@@ -10,7 +10,7 @@ The project simulates 50+ bookings across 10 major Pakistani cities, with behavi
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 In Pakistan, there is no publicly available Airbnb dataset to support market research, pricing optimization, or host performance evaluation. This project addresses that gap by:
 
@@ -20,7 +20,7 @@ In Pakistan, there is no publicly available Airbnb dataset to support market res
 
 ---
 
-## 💡 Problems Solved Using SQL
+## Problems Solved Using SQL
 
 Here are five real-world business questions answered through this project:
 
@@ -41,7 +41,7 @@ Here are five real-world business questions answered through this project:
 
 ---
 
-## 📈 Impact of the Project
+## Impact of the Project
 
 This project drives actionable insights for multiple business areas:
 
@@ -61,18 +61,18 @@ This project drives actionable insights for multiple business areas:
 
 ## 🛠️ Solution Section
 
-### 🧰 Tools Used:
+###  Tools Used:
 - **SQL Server**
 - Simulated data (no external tools like Power BI or Excel used)
 
-### 🧠 SQL Techniques Applied:
+### SQL Techniques Applied:
 - **Common Table Expressions (CTEs)** for comparing listing prices to city averages
 - **Window Functions (`RANK()`)** for identifying top performers by reviews
 - **Joins & Aggregations** for calculating revenue, bookings, and host performance
 - **Data Normalization**: Maintained referential integrity across listings, hosts, bookings, and reviews
 - 
 
-### 🔑 Sample SQL Query Snapshots
+### Sample SQL Query Snapshots
 
 <img width="1069" height="607" alt="12" src="https://github.com/user-attachments/assets/40cfc571-0622-44a2-9626-1af0e0b71c9c" />
 
@@ -83,7 +83,7 @@ This project drives actionable insights for multiple business areas:
 <img width="1074" height="602" alt="15" src="https://github.com/user-attachments/assets/b204a957-d1af-4ebb-8379-9f2236e65518" />
 
 
-## 🧩 Challenges Faced & How They Were Solved
+## Challenges Faced & How They Were Solved
 
 ### 1.  No Official Airbnb Dataset  
 **Challenge:**  
@@ -177,8 +177,8 @@ Nested CTEs and subqueries were causing performance slowdowns.
 ## 👤 Project Author
 
 **Khurram Naveed**  
-- [LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-- [GitHub Portfolio](https://github.com/Khurramnaveed3233/Portfolio)
+- [LinkedIn](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
+- [GitHub](https://github.com/Khurramnaveed3233/Portfolio)
 
 ---
 
