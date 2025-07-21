@@ -41,6 +41,22 @@ Here are five real-world business questions answered through this project:
 
 ---
 
+### ❓ Why Did I Build This Project?
+
+To simulate a **missing dataset** in Pakistan's Airbnb market and to:
+
+- Practice advanced SQL in a real-world scenario  
+- Drive insights using **pure SQL** without dashboards  
+- Showcase **data-backed decisions** for hosts and platforms
+
+### 📈 What Story Does the Data Tell?
+
+- **Stay_4 in Karachi** generated the most revenue (PKR 147,310)
+- Only **3 listings generated 63% of total revenue** → market concentration risk
+- **Superhost Ali** earned PKR 34,540 → ideal for reward programs
+- **Murree** had most bookings but low ratings (3/5) → quality concerns
+- **Lahore** had highest guest satisfaction (4.2/5) → ideal for marketing
+
 ## Impact of the Project
 
 This project drives actionable insights for multiple business areas:
